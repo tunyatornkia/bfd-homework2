@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div>
+        <div class="quiz-container">
+            <h1>Quiz #1</h1>
+            <p id="question">PIM ย่อมาจากอะไร ?</p>
+            <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+            <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+            <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+            <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+            <p id="result"></p>
+        </div>
+    
+        <div class="quiz-container">
+            <h1>Quiz #2</h1>
+            <p id="question2">ปีที่ก่อตั้งบริษัท gosoft คือ?</p>
+            <button class="button" onclick="checkAnswer2('a')">A) 2000</button>
+            <button class="button" onclick="checkAnswer2('b')">B) 2001</button>
+            <button class="button" onclick="checkAnswer2('c')">C) 2002</button>
+            <button class="button" onclick="checkAnswer2('d')">D) 2003</button>
+            <p id="result2"></p>
+        </div>
+        <div class="quiz-container">
+            <h1>Score ของคุณคือ</h1>
+            <p id="scoreBox">0</p>
+        </div>
+    </div>
+   
+    <script src="index.js" charset="UTF-8"></script>
+</body>
+
+</html>
